@@ -1,3 +1,3 @@
 # labadain-stemmer
 
-[To be completed]
+[The algorithm will be made available soon]
