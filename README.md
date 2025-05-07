@@ -1,3 +1,3 @@
 # Labadain Stemmer
 
-[The readme will be made available soon]
+[The readme will be updated soon]
