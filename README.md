@@ -1,3 +1,3 @@
-# labadain-stemmer
+# Labadain Stemmer
 
-[The algorithm will be made available soon]
+[The readme will be made available soon]
