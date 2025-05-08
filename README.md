@@ -7,9 +7,9 @@ The Labadain Stemmer includes three variants:
 
 - [ ] **Light:** Removes suffixes from Portuguese-derived words used in Tetun.
 
-- [ ] **Moderate:** Extends the functionality of the *Light* variant by also removing suffixes from native Tetun words.
+- [ ] **Moderate:** Extends the functionality of the *light* variant by also removing suffixes from native Tetun words.
 
-- [ ] **Heavy:** Builds on the functionality of the *Moderate* stemmer by additionally removing native Tetun prefixes.
+- [ ] **Heavy:** Builds on the functionality of the *moderate* variant by additionally removing native Tetun prefixes.
 
 
 ## Dependencies
