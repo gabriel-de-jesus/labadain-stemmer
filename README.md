@@ -31,28 +31,28 @@ python3 labadain_stemmer.py [-if INPUT_FILE | -it INPUT_TEXT] [-of OUTPUT_FILE |
 
 *Arguments:*
 
-- [ ] *-if, --input_file*: Path to an input text file.
-- [ ] *-it, --input_text*: A direct text string to stem.
-- [ ] *-of, --output_file*: Path to save the output.
-- [ ] *-ot, --output_text*: Print the stemmed result to the console (default behavior).
-- [ ] *-m, --mode*: Choose the stemming mode---light(defualt), moderate, heavy.
+- [ ] *-if*: Path to an input text file.
+- [ ] *-it*: A direct text string to stem (default).
+- [ ] *-of*: Path to save the output.
+- [ ] *-ot*: Print the stemmed result to the console (default).
+- [ ] *-m, --mode*: Choose the stemming mode---light(default), moderate, heavy.
 
 ### Examples
 
-- [ ] Stem a direct text string and print to console (default):
+- [ ] Stem a direct text string and print to console:
 
 ```
-python labadain_stemmer.py -it "Komemorasaun loron independénsia de Timor-Leste" -m moderate
+python3 labadain_stemmer.py -it "Komemorasaun loron independénsia de Timor-Leste" -m light
 ```
 
 - [ ] Stem from a file and save output to another file:
 
 ```
-python labadain_stemmer.py -if input.txt -of result.txt -m light
+python3 labadain_stemmer.py -if input.txt -of result.txt -m light
 ```
 
 - [ ] Stem a text string and save result to file:
 
 ```
-python labadain_stemmer.py -it "Komemorasaun loron independénsia de Timor-Leste" -of result.txt -m light
+python3 labadain_stemmer.py -it "Komemorasaun loron independénsia de Timor-Leste" -of result.txt -m light
 ```
