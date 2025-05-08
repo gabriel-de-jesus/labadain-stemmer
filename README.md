@@ -12,13 +12,33 @@ The Labadain Stemmer includes three variants:
 - [ ] **Heavy:** Builds on the functionality of the *moderate* variant by additionally removing native Tetun prefixes.
 
 
-## Dependencies
+## Getting started
 
-Install the dependencies specified in the `requirements` file.
+To get started with the Labadain Stemmer, first clone the repository from GitHub:
+
+```
+$ git clone https://github.com/gabriel-de-jesus/labadain-stemmer.git
+
+```
+
+Then navigate into the project directory:
+```
+cd labadain-stemmer
+```
+
+You may also want to set up a virtual environment and activate it:
+
+```
+python3 -m venv .labadain-stemmer
+source .labadain-stemmer/bin/activate  # On Windows use `.labadain-stemmer\Scripts\activate`
+```
+
+Finally, install the required dependencies in the `requirements` file:
 
 ```
 pip install -r requirements.txt
 ```
+
 
 ## Usage
 
