@@ -57,7 +57,7 @@ If you use this repository or any of its contents for your research or academic 
 
 ```
 @misc{dejesus-nunes-2025,
-      title={Establishing a Foundation for Tetun Text Ad-Hoc Retrieval: Stemming, Indexing, Retrieval, and Ranking}, 
+      title={Establishing a Foundation for Tetun Ad-Hoc Text Retrieval: Stemming, Indexing, Retrieval, and Ranking}, 
       author={Gabriel de Jesus and S{\'e}rgio Nunes},
       year={2025},
       eprint={2412.11758},
