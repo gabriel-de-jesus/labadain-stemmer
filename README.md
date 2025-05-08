@@ -39,27 +39,21 @@ python3 labadain_stemmer.py [-if INPUT_FILE | -it INPUT_TEXT] [-of OUTPUT_FILE |
 
 ### Examples
 
-- [ ] Stem a direct text string and print to console:
+- [ ] Stem a direct text string using *light* stemmer and print the result to console:
 
 ```
-python3 labadain_stemmer.py -it "Komemorasaun loron independénsia de Timor-Leste" -m light
+python3 labadain_stemmer.py -it "Komemorasaun loron independénsia Timor-Leste"
 ```
 
-- [ ] Stem from a file and save output to another file:
+- [ ] Stem from a file using *moderate* stemmer and save output to another file:
 
 ```
-python3 labadain_stemmer.py -if input.txt -of result.txt -m light
-```
-
-- [ ] Stem a text string and save result to file:
-
-```
-python3 labadain_stemmer.py -it "Komemorasaun loron independénsia de Timor-Leste" -of result.txt -m light
+python3 labadain_stemmer.py -if input.txt -of result.txt -m moderate
 ```
 
 
 ## Citation
-If you use this repository or any of its contents for your research, academic work, or publication, please cite it as follows:
+If you use this repository or any of its contents for your research or academic work, please cite it as follows:
 
 ```
 @misc{dejesus-nunes-2025,
