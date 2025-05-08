@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# src.tetun_affixes.py
+# config.tetun_affixes.py
 # Gabriel de Jesus (mestregabrieldejesus@gmail.com)
 # 09-05-2024
 

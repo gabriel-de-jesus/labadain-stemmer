@@ -100,20 +100,18 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    # Load the text
+    # Load the input text
     utils = Utils()
-
-    # Load input
     if args.input_file:
         text = utils.load_corpus(Path(args.input_file))
     else:
         text = args.input_text
 
-    # Preprocess the text
+    # Preprocessing
     text_preprocessor = TextPreprocessing(text)
     preprocessed_text = text_preprocessor.preprocess_text()
 
-    # Stem the text
+    # Stemming
     stemmer = LabadainStemmer(preprocessed_text, mode=args.mode)
     stemmed_text = stemmer.stem()
 
