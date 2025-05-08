@@ -35,7 +35,7 @@ python3 labadain_stemmer.py [-if INPUT_FILE | -it INPUT_TEXT] [-of OUTPUT_FILE |
 - [ ] *-it*: A direct text string to stem (default).
 - [ ] *-of*: Path to save the output.
 - [ ] *-ot*: Print the stemmed result to the console (default).
-- [ ] *-m, --mode*: Choose the stemming mode---light(default), moderate, heavy.
+- [ ] *-m*: Choose the stemming mode---light(default), moderate, heavy.
 
 ### Examples
 
@@ -55,4 +55,20 @@ python3 labadain_stemmer.py -if input.txt -of result.txt -m light
 
 ```
 python3 labadain_stemmer.py -it "Komemorasaun loron independénsia de Timor-Leste" -of result.txt -m light
+```
+
+
+## Citation
+If you use this repository or any of its contents for your research, academic work, or publication, please cite it as follows:
+
+```
+@misc{dejesus-nunes-2025,
+      title={Establishing a Foundation for Tetun Text Ad-Hoc Retrieval: Stemming, Indexing, Retrieval, and Ranking}, 
+      author={Gabriel de Jesus and S{\'e}rgio Nunes},
+      year={2025},
+      eprint={2412.11758},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2412.11758}
+}
 ```
