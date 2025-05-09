@@ -82,7 +82,7 @@ class LabadainStemmerCore:
         When a word terminates with "amente" suffix:
         1. Delete if in R1.
         2. If preceded by iv, delete if in R2 (and if further preceded by at, delete if in R2), otherwise.
-        3. If preceded by os, ic or ad, delete if in R2.
+        3. If preceded by oz, ik or ad, delete if in R2.
         """
         r1, r2 = self.find_r1_r2_positions(word)
         # Check if the suffix is in R1
