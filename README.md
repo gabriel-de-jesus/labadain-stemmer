@@ -86,3 +86,15 @@ If you use this repository or any of its contents for your research or academic 
       url={https://arxiv.org/abs/2412.11758}
 }
 ```
+
+## Acknowledgement
+This work is financed by National Funds through the Portuguese funding agency, FCT - Fundação para a Ciência e a Tecnologia under the PhD scholarship grant number SFRH/BD/151437/2021 [DOI 10.54499/SFRH/BD/151437/2021](https://doi.org/10.54499/SFRH/BD/151437/2021).
+
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/gabriel-de-jesus/labadain-stemmer/blob/main/LICENSE)
+
+
+## Contact Information
+If you have any questions or feedback, please feel free to contact mestregabrieldejesus[at]gmail.com.
