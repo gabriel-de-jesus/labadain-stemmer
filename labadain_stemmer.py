@@ -30,7 +30,7 @@ class LabadainStemmer:
         self.stemmed_words_list = []
 
     def tokenize_text(self) -> List[str]:
-        """Remove punctuation, special characters, adn tokenize into word and number tokens."""
+        """Remove punctuation, special characters, and tokenize into word and number tokens."""
         return self.tokenizer.tokenize(self.text)
     
     def light_stemmer(self) -> None:
@@ -81,7 +81,7 @@ if __name__ == "__main__":
 
     input_group = parser.add_mutually_exclusive_group(required=True)
     input_group.add_argument("-if", "--input_file", type=str, help="Path to input text file")
-    input_group.add_argument("-it", "--input_text",  type=str, help="Input text string (default)")
+    input_group.add_argument("-it", "--input_text",  type=str, help="Input string (default)")
 
     output_group = parser.add_mutually_exclusive_group()
     output_group.add_argument("-of", "--output_file", type=str, help="Path to save output text")

@@ -7,7 +7,7 @@
 
 # ==== TETUN AFFIXES ==== #
 
-# Portuguese loanwords general suffixes in Tetun
+# Portuguese loanwords general suffixes used in Tetun
 general_suffixes = [
     "eza", "ezas", "iku", "ika", "ikus", "ikas", "izmu", "izmus", "ável", "ível",
     "ista", "istas", "ozu", "oza", "ozus", "ozas", "amentu", "amentus", "imentu", "imentus",
@@ -42,7 +42,7 @@ verb_based_suffixes = [
     "ária", "áriu", "árias", "árius"
 ]
 
-# Commonly residual suffixes in Portuguese loanwords
+# Commonly residual suffixes from Portuguese loanwords
 residual_suffixes = ["a", "e", "i", "u", "us", "as"]
 
 # Tetun native suffixes
@@ -50,5 +50,5 @@ tetun_suffixes = [
     "-na'in", "-teen", "dór", "n"
 ]
 
-# Common prefixes in Tetun
+# Common Tetun prefixes
 tetun_prefixes = ["ha", "nak", "nam"]

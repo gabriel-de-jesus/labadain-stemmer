@@ -54,7 +54,7 @@ python3 labadain_stemmer.py [-if INPUT_FILE | -it INPUT_TEXT] [-of OUTPUT_FILE |
 - [ ] *-if*: Path to an input text file.
 - [ ] *-it*: An input string to stem (default).
 - [ ] *-of*: Path to save the output.
-- [ ] *-ot*: Print the stemmed result to the console (default).
+- [ ] *-ot*: Print the stemmed result to console (default).
 - [ ] *-m*: Choose the stemming mode - light (default), moderate, heavy.
 
 ### Examples

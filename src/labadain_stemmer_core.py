@@ -10,7 +10,7 @@ TETUN_VOWELS = "aeiouáéíóú"
 
 
 class LabadainStemmerCore:
-    """Loanwords Stemmer Core Class."""
+    """Stemmer Core Class for Portuguese Loanwords."""
 
     def __init__(self):
         pass
