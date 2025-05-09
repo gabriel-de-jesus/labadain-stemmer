@@ -18,7 +18,7 @@ from src.stemmer_pipeline import (
 
 
 class LabadainStemmer:
-    """A implementation of the Labadain stemmer algorithm."""
+    """An implementation of the Labadain stemmer algorithm."""
 
     def __init__(self, text: str, mode: str = "light") -> None:
         self.text = text

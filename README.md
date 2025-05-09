@@ -52,14 +52,14 @@ python3 labadain_stemmer.py [-if INPUT_FILE | -it INPUT_TEXT] [-of OUTPUT_FILE |
 *Arguments:*
 
 - [ ] *-if*: Path to an input text file.
-- [ ] *-it*: A direct text string to stem (default).
+- [ ] *-it*: An input string to stem (default).
 - [ ] *-of*: Path to save the output.
 - [ ] *-ot*: Print the stemmed result to the console (default).
 - [ ] *-m*: Choose the stemming mode - light (default), moderate, heavy.
 
 ### Examples
 
-- [ ] Stem a direct text string using *light* stemmer and print the result to console:
+- [ ] Stem an input text using *light* stemmer and print the result to console:
 
 ```
 python3 labadain_stemmer.py -it "Komemorasaun loron independénsia Timor-Leste"
