@@ -33,7 +33,7 @@ class LabadainStemmer:
         """Remove punctuation, special characters, and tokenize into word and number tokens."""
         return self.tokenizer.tokenize(self.text)
     
-    def light_stemmer(self) -> None:
+    def light_stemmer(self) -> str:
         """Stem words to the root using light stemmer."""
         stemmed_words_list = []
         for word in self.tokenize_text():
@@ -44,7 +44,7 @@ class LabadainStemmer:
                 stemmed_words_list.append(word)
         return " ".join(stemmed_words_list)
 
-    def moderate_stemmer(self) -> None:
+    def moderate_stemmer(self) -> str:
         """Stem words to the root using moderate stemmer."""
         for word in self.tokenize_text():
             if len(word) > 3:
@@ -54,7 +54,7 @@ class LabadainStemmer:
                 self.stemmed_words_list.append(word)
         return " ".join(self.stemmed_words_list)
 
-    def heavy_stemmer(self) -> None:
+    def heavy_stemmer(self) -> str:
         """Stem words to the root using heavy stemmer."""
         for word in self.tokenize_text():
             if len(word) > 3:
