@@ -30,10 +30,10 @@ You may also want to set up a virtual environment and activate it:
 
 ```
 python3 -m venv .labadain-stemmer
-source .labadain-stemmer/bin/activate  # On Windows use `.labadain-stemmer\Scripts\activate`
+source .labadain-stemmer/bin/activate
 ```
 
-Finally, install the required dependencies in the `requirements` file:
+Install the required dependencies in the `requirements.txt` file:
 
 ```
 pip install -r requirements.txt
@@ -55,7 +55,7 @@ python3 labadain_stemmer.py [-if INPUT_FILE | -it INPUT_TEXT] [-of OUTPUT_FILE |
 - [ ] *-it*: A direct text string to stem (default).
 - [ ] *-of*: Path to save the output.
 - [ ] *-ot*: Print the stemmed result to the console (default).
-- [ ] *-m*: Choose the stemming mode - light(default), moderate, heavy.
+- [ ] *-m*: Choose the stemming mode - light (default), moderate, heavy.
 
 ### Examples
 
